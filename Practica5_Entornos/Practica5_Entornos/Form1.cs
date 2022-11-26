@@ -16,7 +16,7 @@ namespace Practica5_Entornos
 
             textoTelegrama = txtTelegrama.Text;
             // telegrama urgente?
-            if (rButton2.Checked)
+            if (rButton2.Checked) { 
                 tipoTelegrama = 'u';
             }
 
