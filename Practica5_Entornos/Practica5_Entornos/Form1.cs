@@ -10,7 +10,7 @@ namespace Practica5_Entornos
         private void button1_Click(object sender, EventArgs e)
         {
             string textoTelegrama;
-            char tipoTelegrama = 'o';
+            char tipoTelegrama = 'o' ;
             int numPalabras = 0;
             double coste;
 
