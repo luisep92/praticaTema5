@@ -16,7 +16,7 @@ namespace Practica5_Entornos
             //Leo el telegrama
             textoTelegrama = txtTelegrama.Text;
             // telegrama urgente?
-            if (rButton2.Checked)
+            if (cbUrgente.Checked)
                 tipoTelegrama = 'u';
             //Obtengo el número de palabras que forma el telegrama
             numPalabras = textoTelegrama.Length;
@@ -36,6 +36,7 @@ namespace Practica5_Entornos
             else
                 coste = 0;
             txtPrecio.Text = coste.ToString() + " euros";
+
 
         }
     }
